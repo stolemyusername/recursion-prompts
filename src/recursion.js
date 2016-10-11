@@ -32,6 +32,7 @@ var sum = function(array) {
 // Example: arraySum([1,[2,3],[[4]],5]); // 15
 var arraySum = function(array) {
   var sum = 0;
+  
   for (var i = 0; i < array.length; i++) {
     if (typeof array[i] === 'number') {
       sum += array[i];
